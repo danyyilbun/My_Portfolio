@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<!--Author Danyyil Bun-->
+<html lang="en">
+		<head>
+		<meta charset="utf-8">
+		<title>RubicSolve</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap-4.0.0/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Another boot.css">
+		<link rel="stylesheet" type="text/css" href="css/boot.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="image/cube-icon.jpg" type="image/jpg" sizes="16x16">
+		</head>
+		<body>
+		<!--The navigation area-->
+		<nav class="container-fluid navbar-dark bg-info">
+		<!--This is Logo-->
+		<a class="navbar-brand" href="Home.html">
+		<img src="image/cube-logo.jpg" class="omg" style="display:inline-block;">
+		<span style="display: inline-block;">RubicSolve</span>
+		</a>
+		<!--This is navigation part-->
+		<ul class = "nav nav-tabs justify-content-end navbar-dark" role = "tablist">
+		 
+		 <li class="nav-item">
+		  
+		<a class=" nav-link text-light" href = "Home.html">Home</a>
+		</li>
+		  
+		  <li class="nav-item">
+		  
+		<a class="active nav-link text-dark" href = "Practice.html">Practice</a>
+		</li>
+		
+		  <li class="nav-item">
+		  
+		<a class="  nav-link text-light" href = "About Us.html">About Us</a>
+		</li>
+		</ul>
+		</nav>
+		
+		<main>
+		<div class = "row" id = "THE_CUBE">
+			<div class="col-sm-2 col-md-2 col-xs-2">
+						<div id ="hp" class = "container row" >
+			<div class = "col-lg-10 col-lg-offset-1 text-center col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+			<input class="btn btn-primary"  type = "button"  value = "R " id = "R">
+			<input class="btn btn-primary"  type = "button"  value = "R'" id = "Rk">
+			<input class="btn btn-primary"  type = "button"  value = "L " id = "L">
+			<input class="btn btn-primary"  type = "button"  value = "L'" id = "Lk">
+			<input class="btn btn-success"  type = "button"  value = "U " id = "T">
+			<input class="btn btn-success"  type = "button"  value = "U'" id = "Tk">
+			<input class="btn btn-success"  type = "button"  value = "F " id = "F">
+			<input class="btn btn-success"  type = "button"  value = "F'" id = "Fk">
+			<input class="btn btn-info"  type = "button"  value = "D " id = "D">
+			<input class="btn btn-info"  type = "button"  value = "D'" id = "Dk">
+			<input class="btn btn-info"  type = "button"  value = "B " id = "B">
+			<input class="btn btn-info"  type = "button"  value = "B'" id = "Bk">
+			</div>
+			<div class = "col-lg-10 col-lg-offset-1 text-center col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+			<input class="btn btn-warning"  type = "button"  value = "X " id = "X">
+			<input class="btn btn-warning"  type = "button"  value = "X'" id = "Xk">
+			<input class="btn btn-warning"  type = "button"  value = "Y " id = "Y">
+			<input class="btn btn-warning"  type = "button"  value = "Y'" id = "Yk">
+			<input class="btn btn-primary"  type = "button"  value = "Mh" id = "Mh">
+			<input class="btn btn-primary"  type = "button"  value = "Mh'" id = "Mhk">
+			<input class="btn btn-primary"  type = "button"  value = "M " id = "My">
+			<input class="btn btn-primary"  type = "button"  value = "M'" id = "Myk">
+			<div class = "col-lg-10 col-lg-offset-1 text-center col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+			<input class="btn btn-danger"  type = "button"  value = "Restore" id = "Restore">
+			<input class="btn btn-danger"  type = "button"  value = "Scramble" id = "Scramble">
+
+			</div></div>
+			</div>
+			</div>
+		
+		<div class = "col-sm-10 col-md-10 col-xs-10">
+		<div class="row">
+		
+		<div id= "content" class="col-sm-4 col-md-4 col-xs-4"></div>
+		
+		<div id="gp" class="col-sm-8 col-md-8 col-xs-8">
+		<div class = "container "  >
+				<div class = "container">
+				<div class = "row">
+					<!--This is empty cells to add spacing-->
+					<div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube"></div>
+					<div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube" ></div>
+					<!--These are top cells-->
+					<div id="c" class = "col-sm-2 col-md-2 col-xs-2 tS3 cube" ></div>
+					<div id="d" class = "col-sm-2 col-md-2 col-xs-2 tS3  cube"></div>
+					<div id="e" class = "col-sm-2 col-md-2 col-xs-2 tS3 cube" ></div>
+					<!--This is empty cell to add spacing-->
+				    <div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube"></div>
+					
+				</div>
+				<div class = "row">
+					<!--This is empty cells to add spacing-->
+					<div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube"></div>
+					<!--These are top cells-->
+					<div id="h" class = "col-sm-2 col-md-2 col-xs-2 tS2 cube" ></div>
+					<div id="i" class = "col-sm-2 col-md-2 col-xs-2 tS2 cube" ></div>
+					<div id="j" class = "col-sm-2 col-md-2 col-xs-2 tS2 cube" ></div>
+				    <!--This is empty cells to add spacing-->
+					<div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube"></div>
+					<!--This is right side cells skewed more strongly-->
+					<div id="l" class = "col-sm-2 col-md-2 col-xs-2 rS2 cube" ></div>
+				</div>
+				<div class = "row">
+					<!--This is top cells -->
+					<div id="m" class = "col-sm-2 col-md-2 col-xs-2 tS cube" ></div>
+					<div id="n" class = "col-sm-2 col-md-2 col-xs-2 tS cube" ></div>
+					<div id="o" class = "col-sm-2 col-md-2 col-xs-2 tS cube" ></div>
+					<!--This is empty cells to add spacing-->
+				    <div  class = " empty col-sm-2 col-md-2 col-xs-2 tS cube"></div>
+					<!--This is right specifically skewed cells-->
+					<div id="q" class = "col-sm-2 col-md-2 col-xs-2 rS23 cube"></div>
+					<div id="r" class = "col-sm-2 col-md-2 col-xs-2 rS2 cube"></div>
+				</div>
+				<div class = "row">
+					<!--This is upright cells-->
+					<div id="s" class="col-md-2 col-sm-2 col-xs-2 cube" ></div>
+					<div id="t" class="col-md-2 col-sm-2 col-xs-2 cube" ></div>
+					
+					<div id="u" class="col-md-2 col-sm-2 col-xs-2 rigt cube" ></div>
+					<!--This is right skewed cells-->
+					<div id="v" class = "col-md-2 col-sm-2 col-xs-2 rS cube" ></div>
+					<!--This is right specifically skewed cells-->
+					<div id="w" class = "col-md-2 col-sm-2 col-xs-2 rS23 cube" ></div>
+					<div id="x" class = "col-sm-2 col-md-2 col-xs-2 rS2 cube" ></div>
+				</div>
+				'
+				<div class = "row" style="">
+					<div id="y" class="col-md-2 col-sm-2 col-xs-2 cube" ></div>
+					<div id="z" class="col-md-2 col-sm-2 col-xs-2 cube" ></div>
+					<div id="aa" class="col-md-2 col-sm-2 col-xs-2 rigt cube"   ></div>
+					
+					<div id="bb" class = "col-md-2  col-sm-2 col-xs-2 rS cube" ></div>
+					<div id="cc" class = "col-md-2 col-sm-2 col-xs-2 rS23 cube" ></div>
+				</div>
+				
+				<div class = "row">
+					<div id="dd" class="col-md-2 col-sm-2 col-xs-2 botom cube" ></div>
+					<div id="ee" class="col-md-2 col-sm-2 col-xs-2 botom cube" ></div>
+					<div id="ff" class="col-md-2 col-sm-2 col-xs-2 rigt botom cube"  ></div>
+					<div id="gg" class = "col-md-2 col-sm-2 col-xs-2 rS cube" ></div>
+					
+			    </div>
+	    </div>
+		</div>
+		</div>
+			</div></div>
+			</div>
+			<div class ="container" id = "apolog">
+			<p>We apologise but on this screen width site functionality is undisplayable</p>
+			
+			<div>
+		</main>
+		<footer>
+				<div class="footer-copyright py-3 text-center">&copy; Copyright 2018 , Champlain Students Project 
+					<address>
+					Page maintained by
+						<a class="footer" href="mailto:danya.boon@gmail.com" title="Send us Email">
+							Danyyil Bun
+						</a>
+					</address></div>
+		</footer>
+		<div id = "scripts">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bot.js"></script>
+		<script src="js/Scramble.js"></script>
+		<script src="js/turns/rigthTurn.js"></script>
+		<script src="js/turns/rigthTurnI.js"></script>
+		<script src="js/turns/leftTurn.js"></script>
+		<script src="js/turns/leftTurnI.js"></script>
+		<script src="js/turns/topTurn.js"></script>
+		<script src="js/turns/topTurnI.js"></script>
+		<script src="js/turns/xTurn.js"></script>
+		<script src="js/turns/xTurnI.js"></script>
+		<script src="js/turns/faceTurn.js"></script>
+		<script src="js/turns/faceTurnI.js"></script>
+		<script src="js/turns/downTurn.js"></script>
+		<script src="js/turns/downTurnI.js"></script>
+		<script src="js/turns/yTurn.js"></script>
+		<script src="js/turns/yTurnI.js"></script>
+		<script src="js/turns/mYTurn.js"></script>
+		<script src="js/turns/mYTurnI.js"></script>
+		<script src="js/turns/mHTurn.js"></script>
+		<script src="js/turns/mHTurnI.js"></script>
+		<script src="js/turns/backTurn.js"></script>
+		<script src="js/turns/backTurnI.js"></script>
+		<script src="js/events.js"></script>
+		<script src="js/Restore.js"></script>
+		
+		
+		</div>
+		</body>
+</html>
