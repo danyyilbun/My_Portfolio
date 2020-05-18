@@ -1,0 +1,180 @@
+
+.cube
+{
+	background-color:transparent;
+	height:120px;
+	width:100px;
+	border-left-style:solid;
+	border-left-color:black;
+	border-top-style:solid;
+	border-top-color:black;
+	border-radius: 25px;
+	
+}
+.images{width:400px;height:400px;}
+.rigt{border-right-style:solid;
+	border-right-color:black;}
+.botom{border-bottom-style:solid;
+	border-bottom-color:black;}
+	.fS{
+	height:120px;
+	width:100px;
+		
+	}
+	
+	.tS
+	{
+		
+		border-style:solid;
+	border-color:black;
+		height:120px;
+	width:30px;
+	transform: translate3d(39px,8px,0px) rotate(30deg) skewY(150deg) skewX(170deg);
+	
+	}
+		.tS2
+	{
+		
+		border-style:solid;
+	border-color:black;
+	height:120px;
+	width:30px;
+	transform: translate3d(39px,23px,0px) rotate(30deg) skewY(150deg) skewX(170deg);
+	
+	}
+			.tS3
+	{
+		
+		border-style:solid;
+	border-color:black;
+		height:120px;
+	width:30px;
+	transform: translate3d(45px,38px,0px) rotate(30deg) skewY(150deg) skewX(170deg) ;
+	
+	}
+	.rS
+	{
+		
+	border-style:solid;
+	border-color:black;
+	height:120px;
+	width:30px;
+	transform: translateY(-0%) skewY(130deg);
+	
+	}
+	.rS2
+	{
+		
+	border-style:solid;
+	border-color:black;
+	height:120px;
+	width:30px;
+	transform: translateY(1%) translateX(-4%) skewY(130deg);
+	
+	}
+	.rS23
+	{
+		
+	border-style:solid;
+	border-color:black;
+	height:120px;
+	width:30px;
+	transform: translateY(-19%) skewY(130deg);
+	
+	}
+	.empty{
+		
+		border-style:transparent;
+		border-color:transparent;
+		background-color:transparent;
+		height:120px;
+	width:30px;
+	transform: rotate(30deg) skewY(150deg);
+	}
+	#apolog{display:none;}
+	main{padding:10%;}
+	
+	@media only screen and (max-width: 620px) {
+
+main{padding:0%;}
+	.col-xs-2
+	{
+		display:block;
+		width:25px;
+	}
+	.col-sm-2
+	{
+		display:block;
+		width:25px;
+	}
+	.rS
+	{
+	transform: translateY(-23%) skewY(130deg);
+	width:50px;
+	}
+	.rS2
+	{
+	transform: translateY(5%) translateX(20%) skewY(130deg);
+	width:50px;
+	margin:1%;
+	}
+	.rS23
+	{
+		
+	transform: translateY(5%) translateX(20%)  skewY(130deg);
+	width:50px;
+	}
+    }
+	@media only screen and (max-width: 620px) {
+
+#THE_CUBE{display:none;}
+#apolog{display:block;}		
+    }
+	
+	@media only screen and (min-width: 850px) {
+
+        
+		.rS2{
+		height:120px;
+		width:4px;
+		transform: translateY(-24%) translateX(-2%) skewY(130deg);
+		}
+		.rS23{
+		height:120px;
+		width:15px;
+		transform: translateY(-33%) translateX(-2%) skewY(130deg);	
+		}
+		.rS{
+		height:120px;
+		width:15px;
+		transform: translateY(-37%) skewY(130deg);
+		}
+		
+    }
+	@media only screen and (min-width: 680px) {
+
+        
+		.rS2{
+		height:120px;
+		width:4px;
+		transform: translateY(-24%) translateX(-2%) skewY(130deg);
+		}
+		.rS23{
+		height:120px;
+		width:15px;
+		transform: translateY(-33%) translateX(-2%) skewY(130deg);	
+		}
+		.rS{
+		height:120px;
+		width:15px;
+		transform: translateY(-37%) skewY(130deg);
+		}
+		
+    }
+	
+		@media only screen and (min-width: 975px) {
+
+        
+	 #THE_CUBE{width:950px;}
+    }
+
