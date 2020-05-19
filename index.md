@@ -20,7 +20,8 @@
 <body>
 <center><h1>My Portfolio</h1>
 <img src="IMG_20200517_184122.jpg" height="300" width="300"></center>
-<a class="button" href="OldVersion/Practice">First year Project</a>&nbsp;&nbsp;<a class="button"href="UpdateVersion/Practice">Updated first project</a>
-&nbsp;&nbsp;<a class="button" href="shopingcart.html">PHP project Second Year</a>
+<a class="button" href="OldVersion/Practice">First year Project</a>&nbsp;&nbsp;<br> 
+<a class="button" href="UpdateVersion/Practice"> Updated first project</a>
+&nbsp;&nbsp;<br><a class="button" href="shopingcart.html">PHP project Second Year</a>
 </body>
 </html>
