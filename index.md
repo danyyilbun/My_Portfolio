@@ -7,7 +7,7 @@
     .button {
     display: block;
     width: 200px;
-    height: 30px;
+    height: 50px;
     background: #4E9CAF;
     padding: 10px;
     text-align: center;
