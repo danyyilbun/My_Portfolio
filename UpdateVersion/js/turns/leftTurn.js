@@ -1,4 +1,4 @@
-function leftTurn(leftSide,backSide,bottomSide,frontSide,topSide){
+ function leftTurn(leftSide,backSide,bottomSide,frontSide,topSide){
 		
 		
 		
