@@ -5,19 +5,22 @@
 <body>
 		<nav>
 		<a class="navbar-brand" href="index.md">
-	<img src="images/portfolio.png" class = "omg" style="display: inline-block;">
-		<span style="display: inline-block;">RubicSolve</span>
+	<img src="images/portfolio.png" height="50px" width="50px" class = "omg" style="display: inline-block;">
+		<span style="display: inline-block;">Main Page</span>
 		</a>
 		<!--This is navigation part-->
 		<ul class = "nav nav-tabs justify-content-end" role="tablist"> 
 		 <li class="nav-item">	  
-		<a class=" nav-link " href = "Home.html">Home</a>
+		<a class=" nav-link " href = "education.md">Education</a>
 		</li>  
 		  <li class="nav-item">  
-		<a class="nav-link" href = "Practice.html">Practice</a>
+		<a class="nav-link" href = "projects.md">Projects</a>
 		</li>
 		  <li class="nav-item">
-		<a class="active  nav-link" href = "About Us.html">About Us</a>
+		<a class="active  nav-link" href = "resume.md">Resume</a>
+		</li>
+    	<li class="nav-item">
+		<a class="active  nav-link" href = "contactInfo.md">Contact Info</a>
 		</li>
 		</ul>
 		</nav>
