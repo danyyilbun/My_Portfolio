@@ -5,8 +5,7 @@
 <body>
 		<nav>	
     <ul class = "nav nav-tabs justify-content-end" role="tablist">
-		<a class="navbar-brand" href="index.md">
-    <li class="nav-item">	
+		<li class="nav-item"><a class=" active navbar-brand" href="index.md">
 	<img src="images/portfolio.png" height="50px" width="50px" class = "omg" style="display: inline-block;">
 		<span style="display: inline-block;">Main Page</span>
 		</a></li>
@@ -18,10 +17,10 @@
 		<a class="nav-link" href = "projects.md">Projects</a>
 		</li>
 		  <li class="nav-item">
-		<a class="active  nav-link" href = "resume.md">Resume</a>
+		<a class="nav-link" href = "resume.md">Resume</a>
 		</li>
     	<li class="nav-item">
-		<a class="active  nav-link" href = "contactInfo.md">Contact Info</a>
+		<a class=" nav-link" href = "contactInfo.md">Contact Info</a>
 		</li>
 		</ul>
 		</nav>
