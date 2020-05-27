@@ -3,13 +3,14 @@
     <link rel="stylesheet" type="text/css" href="OldVersion/bootstrap-4.0.0/css/bootstrap.min.css"/>	
 </head>
 <body>
-		<nav>
+		<nav>	
+    <ul class = "nav nav-tabs justify-content-end" role="tablist">
 		<a class="navbar-brand" href="index.md">
+    <li class="nav-item">	
 	<img src="images/portfolio.png" height="50px" width="50px" class = "omg" style="display: inline-block;">
 		<span style="display: inline-block;">Main Page</span>
-		</a>
+		</a></li>
 		<!--This is navigation part-->
-		<ul class = "nav nav-tabs justify-content-end" role="tablist"> 
 		 <li class="nav-item">	  
 		<a class=" nav-link " href = "education.md">Education</a>
 		</li>  
