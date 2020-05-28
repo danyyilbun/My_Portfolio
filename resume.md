@@ -1,3 +1,6 @@
+layout: page
+title: Main Page
+
 <head>
 		<title>  Danyyil Bun Portfolio</title>
     <link rel="stylesheet" type="text/css" href="OldVersion/bootstrap-4.0.0/css/bootstrap.min.css"/>	

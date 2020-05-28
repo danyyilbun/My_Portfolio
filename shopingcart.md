@@ -1,3 +1,5 @@
+layout: page
+title: Main Page
 
 <head>
 		<title>  Danyyil Bun Portfolio</title>
