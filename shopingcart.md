@@ -1,5 +1,5 @@
 layout: page
-title: Main Page
+title: Shopping Cart
 
 <head>
 		<title>  Danyyil Bun Portfolio</title>
