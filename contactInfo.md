@@ -1,4 +1,4 @@
-<html><head>
+<head>
 		<title>  Danyyil Bun Portfolio</title>
     <link rel="stylesheet" type="text/css" href="OldVersion/bootstrap-4.0.0/css/bootstrap.min.css"/>	
 </head>
@@ -27,4 +27,3 @@
 <center><h1>Contact Information</h1></center>
 </main>
 </body>
-</html>

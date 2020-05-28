@@ -1,4 +1,4 @@
-<html><head>
+<head>
 		<title>  Danyyil Bun Portfolio</title>
     <link rel="stylesheet" type="text/css" href="OldVersion/bootstrap-4.0.0/css/bootstrap.min.css"/>	
 </head>
@@ -32,4 +32,3 @@
 <br><a class="btn btn-primary" href="game.md">Game Exodius Second Year</a>
 </main>
 </body>
-</html>
